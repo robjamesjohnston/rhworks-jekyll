@@ -1,7 +1,7 @@
 site: R H Works
 
 url: 
-baseurl: 
+baseurl: /rhworks
 
 collections:
   pages:

@@ -20,10 +20,10 @@ layout: default
 
 <section class="wrap PageNavigation">
   {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}"><svg viewBox="0 0 32 32" class="icon icon-arrow-left" aria-hidden="true"><path d="M26.025 14.496l-14.286-.001 6.366-6.366L15.979 6 5.975 16.003 15.971 26l2.129-2.129-6.367-6.366h14.29z"/></svg> {{page.previous.title}}</a>
+    <a class="prev" href="{{ page.previous.url | relative_url }}"><svg viewBox="0 0 32 32" class="icon icon-arrow-left" aria-hidden="true"><path d="M26.025 14.496l-14.286-.001 6.366-6.366L15.979 6 5.975 16.003 15.971 26l2.129-2.129-6.367-6.366h14.29z"/></svg> {{page.previous.title}}</a>
   {% endif %}
   {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">{{page.next.title}} <svg viewBox="0 0 32 32" class="icon icon-arrow-right" aria-hidden="true"><path d="M5.975 17.504l14.287.001-6.367 6.366L16.021 26l10.004-10.003L16.029 6l-2.128 2.129 6.367 6.366H5.977z"/></svg></a>
+    <a class="next" href="{{ page.next.url | relative_url }}">{{page.next.title}} <svg viewBox="0 0 32 32" class="icon icon-arrow-right" aria-hidden="true"><path d="M5.975 17.504l14.287.001-6.367 6.366L16.021 26l10.004-10.003L16.029 6l-2.128 2.129 6.367 6.366H5.977z"/></svg></a>
   {% endif %}
 </section>
 

@@ -8,14 +8,14 @@ featured_image: '/images/the-stage/Front.gif'
 
 Contemporary redesign of The Stage newspaper, a [140-year-old](https://www.britishnewspaperarchive.co.uk/titles/the-stage) theatre directory
 
-<img src="/images/the-stage/Spread-1.gif">
+<img src="{{site.baseurl}}/images/the-stage/Spread-1.gif">
 
 <div class="gallery" data-columns="2">
-	<img src="/images/the-stage/Front.gif">
+	<img src="{{site.baseurl}}/images/the-stage/Front.gif">
 </div>
 
-<img src="/images/the-stage/Spread-2.gif">
+<img src="{{site.baseurl}}/images/the-stage/Spread-2.gif">
 
 <div class="gallery" data-columns="2">
-	<img src="/images/the-stage/StageFirstIssue.jpg">
+	<img src="{{site.baseurl}}/images/the-stage/StageFirstIssue.jpg">
 </div>
